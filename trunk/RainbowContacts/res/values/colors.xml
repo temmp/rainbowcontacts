@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="black">#000000</color>
+<color name="white">#ffffff</color>
+<color name="touming">#00000000</color>
+<color name="down">#115555</color>
+<color name="title">#AA9d754a</color>
+<color name="btn">#AA14525d</color>
+<color name="little">#E65d7c81</color>
+<color name="gray">#66000000</color>
+<color name="darkgray">#AA000000</color>
+<color name="lightgray">#b4c0c2</color>
+<color name="cs_dialogbutton">#454545</color>
+	<color name="words_white_color">#ffff0000</color>
+	<color name="popup_char_color">#99ff00ff</color>
+	
+<color name="title_star">#A4D3EE</color>
+<color name="down_star">#57758f</color>
+<color name="gray_star">#E65d7c81</color>
+<color name="little_star">#A4D3EE</color>
+<color name="number_star">#5386a6</color>
+<color name="darkgray_star">#A4D3EE</color>
+
+<color name="bar_text">#cbe8fb</color>
+<color name="bar_endtext">#4e7ca5</color>
+    
+ <color name="universe_text">#81785d</color>
+<color name="universe_endtext">#726c54</color>  
+
+     <color name="paris_text">#81785d</color>
+<color name="paris_endtext">#494335</color>  
+    
+<color name="maintext_black1">#444444</color>
+<color name="maintext_black2">#808080</color>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ltest" android:gravity="center_vertical"
+		android:background="@drawable/uplay_new" android:layout_height="fill_parent"
+		android:layout_weight="@string/up_new" android:orientation="vertical">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:layout_centerVertical="true">
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="horizontal" 
+				android:layout_weight="7.5">
+				<RelativeLayout android:layout_width="2.5dip" android:layout_height="fill_parent" android:id="@+id/uprelative" 
+				android:layout_toLeftOf="@+id/up_text"></RelativeLayout>	
+				<TextView 
+				android:id="@+id/up_text" android:layout_width="wrap_content"
+					android:textSize="@dimen/TOP_Font_Size" android:textColor="@color/title"
+					android:layout_height="wrap_content" android:text="@string/app_name"
+					android:layout_centerInParent="true">
+				</TextView>
+				
+							<ImageView android:src="@drawable/up_icon" android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/uprelative" android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"/>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="@string/importcontacttolocal_new_thirdimagebutton_relative_weight">
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest1"
+		android:layout_weight="@string/mid_new" android:orientation="vertical"
+		android:background="@drawable/midlay_new"
+		android:layout_height="fill_parent">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_weight="@string/choosecontact_searchdevices_topbutton_layout_weight"
+			android:orientation="horizontal" android:id="@+id/linearLayout1"
+			android:layout_height="fill_parent">
+
+			<RelativeLayout android:layout_width="fill_parent"
+				android:id="@+id/linearLayout1" android:layout_weight="@string/choosecontact_searchdevices_topbutton_weight"
+				android:layout_height="fill_parent">
+				<ImageButton android:id="@+id/eee" android:onClick="onselectall"
+					android:layout_centerInParent="true" android:background="@color/touming"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:src="@drawable/selectall">
+				</ImageButton>
+			</RelativeLayout>
+
+			<RelativeLayout android:layout_width="fill_parent"
+				android:id="@+id/linearLayout1" android:layout_weight="@string/choosecontact_searchdevices_topbutton_weight"
+				android:layout_height="fill_parent">
+				<ImageButton android:id="@+id/sss" android:onClick="onnotselectall"
+					android:layout_centerInParent="true" android:background="@color/touming"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/cancelselect">
+				</ImageButton>
+			</RelativeLayout>
+
+		</LinearLayout>
+
+		<RelativeLayout android:layout_width="fill_parent" android:id="@+id/choosecontact_back"
+			android:orientation="vertical" android:layout_weight="@string/choosecontact_searchdevices_list_layout_weight"
+			android:layout_height="fill_parent">
+
+
+
+			
+				<ListView android:id="@+id/contactList"   
+        android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:scrollbars="none"
+		android:cacheColorHint="#00000000" />
+			<ccdr.rainbow.Tool.MyLetterListView 
+    	android:id="@+id/MyLetterListView01" 
+		android:background="#40000000" 
+		android:layout_width="20dip" 
+		android:layout_height="fill_parent"
+		android:layout_alignParentRight="true" />
+		</RelativeLayout>
+
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest2"
+		android:orientation="horizontal" android:layout_weight="@string/down_new"
+		android:background="@drawable/downlay_new" android:layout_height="fill_parent">
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout1" android:layout_weight="@string/choosecontact_searchdevices_downbutton_weight"
+			android:layout_height="fill_parent">
+			<ImageButton android:id="@+id/talkbutton"
+				android:layout_centerInParent="true" android:onClick="onexporttolocalcancelbtn"
+				android:background="@color/touming" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/back">
+			</ImageButton>
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout1" android:layout_weight="@string/choosecontact_searchdevices_downbutton_weight"
+			android:layout_height="fill_parent">
+			<ImageButton android:id="@+id/talkbutton1"
+				android:layout_centerInParent="true" android:background="@color/touming"
+				android:layout_width="wrap_content" android:onClick="onexporttolocalbtn"
+				android:layout_height="wrap_content" android:src="@drawable/export">
+			</ImageButton>
+		</RelativeLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>

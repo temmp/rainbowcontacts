@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name"> 彩虹联系人</string>
+	<string name="importcontact">导入联系人</string>
+	<string name="exportcontact">导出联系人</string>
+	<string name="exportcontacttolocal">导出联系人到本地</string>
+	<string name="exportcontactviabluetooth">由蓝牙导出联系人</string>
+	<string name="export">导出</string>
+	<string name="cancel">取消</string>
+	<string name="quit">退出</string>
+	<string name="about">关于</string>
+	<string name="faq">问题</string>
+	<string name="stop_import">由于导入联系人时操作中断，本次导入数据不完整。</string>
+	<string name="import_path">路径：</string>
+    <string name="about_message">彩虹联系人1.1.6\n(Android)_Build1111\n深圳清华大学研究院版权所有
+\nCopyright @ 2011 RITS.
+All RightReserved.\n\n此版本适合于 Android操作系统系列手机，对于在其它操作系统平台使用本软件，出现的任何问题，深圳清华大学研究院不承担任何责任，本软件的下载、安装和使用完全免费，深圳清华大学研究院不收取任何费用。\n邮箱：ccdr_hr@tsinghua-sz.org</string>
+	<string name="faq_message">Q:彩虹联系人是什么?主要做什么?\n\nA:彩虹联系人是一款手机联系人转移软件,通过联系人分享,您可以免去流量,与其它安装该软件的手机交换联系人,同时,还可在本地存储上进行联系人备份与恢复.\n\n
+Q:什么叫一件获得功能,它是用来作什么的?\n\nA:安装此软件的手机,只需使用蓝牙即可直接从其它手机获得完整通讯录,对方手机不需要安装该软件,它可以帮助用户迅速更换手机,操作简单,无需3G,无需WiFi,更无需数据线.您只需在新手机上安装此软件,便可从打开蓝牙的旧手机上抓取联系人,轻松完成新旧手机联系人的转移\n\n
+Q:为什么在使用"联系人一键获得"获取对方手机联系人时不需要在被获取方手机上安装任何软件?\n\nA:这是因为被获取方的手机系统已经支持了"联系人一键获得"所使用的相关方法.一般而言,2006年以后生产的手机都会支持"联系人一键获得"这个功能.\n\n
+Q:共享联系人是什么?\n\nA:安装该软件的两台手机可轻松实现指定联系人的分享,提供WiFi和蓝牙两种方式,方便用户根据实际情况选择.\n\n
+Q:WiFi共享可以和其它平台手机共享联系人嘛?\n\nA:可以，只要按照对方手机安装对应版本的彩虹联系人，变可实现共享.\n\n
+Q:什么叫本地转移?目的是什么?\n\nA:备份手机联系人到本地存储及从本地存储恢复联系人.方便用户使用SD卡或iTunes进行联系人转移.\n\n
+Q:彩虹联系人支持那些平台?\n\nA:目前Android平台和iOS平台,的软件已经提供免费下载,Symbian版本也进入最后研发阶段,即将上市.
+</string>
+	<string name="exporting">正在导出联系人</string>
+	<string name="import_stoptitle">提示</string>
+	<string name="import_stopmessage">确认返回？这将停止导入电话簿操作。</string>
+	<string name="ok">确定</string>
+	<string name="Operation">操作提示：</string>
+	<string name="back">返回</string>
+	<string name="hascontacts">本地联系人数量：</string>
+	<string name="lasttimeop">上次操作时间：</string>
+	<string name="daochulianxiren">导出联系人到本地或其他手机</string>
+	<string name="daorulianxiren">从本地或旧手机导入联系人，同时打开本软件可实现联系人完整导入</string>
+	<string name="daochulianxirendaobendi">将联系人导出到本地手机</string>
+	<string name="lanyadaochulianxiren">将联系人导出到其他手机，务必确保对方手机彩虹联系人处于开启状态</string>
+	<string name="exitornot">退出彩虹联系人？</string>
+	<string name="exported1">成功导出</string>
+	<string name="exported2">个联系人到本地</string>
+	<string name="searchdevice">点此处重新查找设备</string>
+	<string name="searchingdevice">正在扫描蓝牙设备..</string>
+	<string name="num18_attention">操作流程：</string>
+	<string name="num18_attention1">请在旧手机上开启蓝牙设备，并选择接受导出数据。</string>
+	<string name="num18_attention2">若对方手机已安装本客户端，则可实现联系人信息完整导入。</string>
+	<string name="num11_attention">发送失败</string>
+	<string name="num11_attention1">请将对方手机于www.***.com下载“彩虹联系人”客户端，完成导出</string>
+	<string name="num19_attention">对方手机系统不支持一键导入，请于www.***.com下载“彩虹联系人”客户端，完成导入
+	</string>
+	<string name="name_unknow">(未知)</string>
+	<string name="onekeysharecontact_tip1">1、确保另一台手机已安装并开启本软件</string>
+<!--
+	<string name="onekeysharecontact_tip2">\t\t开启后对方手机只需进入主界面,等待弹出提示窗口，并选择接受导出请求，完成操作。</string>
+  -->
+  
+   <string name="onekeysharecontact_tip2">2、在该手机上选择“分享联系人“→”蓝牙传输联系人”→”接收联系人”</string>
+	<string name="onekeysharecontact_tip3">3、点击本页面“下一步”按钮</string>
+	<string name="num16_imported">成功导入</string>
+	<string name="num16_imported2">个联系</string>
+	<string name="num16_imported3">人到手机</string>
+	<string name="searchend">扫描完毕</string>
+	<string name="enter">确定</string>
+	<string name="choosedevice">请选择设备</string>
+	<string name="searchtips">请点击\"扫描查找设备\"</string>
+	<string name="bondnone">与此设备配对</string>
+	<string name="bonded">已配对但未连接</string>
+	<string name="pleasewait">正在导出，请稍后...       </string>
+	<string name="bendidaorulianxiren">从本地文件夹中导入联系人到手机</string>
+	<string name="lianxirenyijianhuode">一键获得旧手机和好友手机联系人信息，部分手机若无本客户端将无法完成此操作</string>
+	<string name="quedingtishi">从默认位置导入联系人，如需选择vcard文件，请点击“高级设置”</string>
+	<string name="op1">要做的操作</string>
+	<string name="op3">关闭对话框</string>
+	<string name="op4">重新高级设置</string>
+	<string name="op5">返回到软件首页</string>
+	<string name="imported1">成功导入</string>
+	<string name="imported2">个联系人到手机</string>
+	<string name="pleasewait2">正在导入</string>
+	<string name="pleasewait3">的资料，请稍后...</string>
+	<string name="novcf1">搜索结束</string>
+	<string name="novcf2">没有找到vcard文件，请点击高级设置。</string>
+	<string name="receiving">正在接收联系人信息</string>
+	<string name="pbapreceiving">正在获取联系人信息</string>
+	<string name="connecting">正在向旧手机发送导入\n联系人请求...
+\n\n请在对方手机上确认导\n入请求，完成操作</string>
+	<string name="receive_completed">接收联系人信息完毕，准备导入</string>
+	<string name="server_start">等待远端发送,由于蓝牙安\n全限制，请于120秒内完成操作</string>
+	<string name="get_bulename">本手机名字为：</string>
+	<string name="BtServer">远端手机主动发送</string>
+	<string name="sending">正在发送信息</string>
+	<string name="send_completed">发送完毕</string>
+	<string name="exported_searchdevices">个联系人\n\t\t\t导出完毕</string>
+	<string name="exported_searchdevices2">成功发送信息到</string>
+	<string name="building_server">服务启动中，请确定蓝牙可见，\n长时间等待请按返回</string>
+	<string name="SDFtitle">连接失败</string>
+	<string name="SDFContent">对方手机未安装本软件，导出失败。请在该手机上下载并安装本客户端，完成导出。</string>
+	<string name="SDFContent_pbap">连接失败，请再次启动联系人一键获得。</string>
+	<string name="CRtitle">连接遭拒绝</string>
+	<string name="CRContent">对方手机拒绝连接，请重启蓝牙设备后再试</string>
+	<string name="TOtitle">连接超时</string>
+	<string name="TOContent">连接超时,请在另一端手机收到连接请求后尽快确认接收连接</string>
+	<string name="init">正在做导入初始化</string>
+	<string name="Bluetoothimport">通过蓝牙从另一个手机导入联系人</string>
+	<string name="stopimporttitle">停止导入</string>
+	<string name="stopimporttext">你确定要停止导入吗？</string>
+	<string name="discoverablecaution">请先设置蓝牙可见</string>
+	<string name="openbtcaution">请先打开蓝牙</string>
+	<string name="chooseyourfile">请选择所需要导入的文件</string>
+		<string name="painted_eggshell">哇！！！</string>
+	<string name="painted_eggshell_message">哇!真的假的？你竟然认识彩虹的开发者</string>
+	<string name="painted_eggshell_message1">，太幸运了!!</string>
+	<string name="painted_eggshell_ok">知道啦</string>
+	
+	
+	<string name="contactonekeyget_hint1">\t\t请在没有安装彩虹联系人的旧手机上开启蓝牙设备，并选择接受导出数据。</string>
+	<string name="contactonekeyget_hint2">\t\t部分手机系统不支持一键导入,导入时需安装本客户端。若旧手机已安装本客户端,则可实现联系人信息完整导入。
+	</string>
+	
+	<string name="searchedtips">请选择对方手机蓝牙设备名称，并点击"确定"到下一步</string>
+	<string name="importcontacttolocal_new_hint1">如需选择导入其他Vcard文件,请点击\n“高级设置”</string>
+	<string name="importcontacttolocal_new_hint2">“高级设置”</string>
+	<string name="importcontacttolocal_new_hint3">将从默认的位置</string>
+	<string name="importcontacttolocal_new_hint4">导入联系人</string>
+	
+	
+	<string name="explain_text">\t本软件可实现将旧手机里的联系人全部导入到本机，对方手机无需安装任何软件，只需在旧手机上完成几项基本操作，即可实现联系人快速转移。</string>
+	<string name="main_text">1、 旧手机无需安装本软件,只需开启蓝牙设备,并设置为可被搜索（部分手机需要插入SIM卡才可正常开启蓝牙)</string>
+	<string name="main_text1">2、 待旧手机完成以上操作后,点击本页面"确定"按钮到下一步</string>
+	<string name="main_text2">*注意：  极少数旧手机不支持此功能,导入时需安装本客户端,并使用"分享联系人"功能实现联系人转移</string>
+	<string name="down_text">Copyright © 2011 RITS. All rights reserved</string>
+	<string name="down_text1">深圳清华大学研究院.版权所有</string>
+	<string name="up_new">735</string>
+	<string name="mid_new">174</string>
+	<string name="down_new">691</string>
+	<string name="up">705</string>
+	<string name="mid">180</string>
+	<string name="down">715</string>
+	<string name="main_mid_weight">1</string>
+	<string name="onekeysharecontact_tips_tip1_weight">1</string>
+	<string name="onekeysharecontact_tips_tip2_weight">1</string>
+	<string name="onekeysharecontact_tips_button_weight">2</string>
+	
+	<string name="contactonekeyget_tip1_weight">1</string>
+	<string name="contactonekeyget_tip2_weight">1</string>
+	<string name="contactonekeyget_button_weight">2</string>
+	
+	
+	<string name="importcontacttolocal_new_mid_weight">3.5</string>
+	<string name="importcontacttolocal_new_firsttextview_linear_weight">5</string>
+	<string name="importcontacttolocal_new_blank_weight">2</string>
+	<string name="importcontacttolocal_new_firsttextview_relative_weight">1</string>
+	<string name="importcontacttolocal_new_firstimagebutton_relative_weight">8</string>
+	<string name="importcontacttolocal_new_secondtextview_linear_weight">3</string>
+	<string name="importcontacttolocal_new_secondtextview_relative_weight">3</string>
+	<string name="importcontacttolocal_new_secondimagebutton_firstrelative_weight">3</string>
+	<string name="importcontacttolocal_new_secondimagebutton_secondrelative_weight">8</string>
+	<string name="importcontacttolocal_new_thirdimagebutton_relative_weight">12</string>
+	
+	
+	
+	
+	<string name="newmain_toptext_left_weight">7</string>
+	<string name="newmain_toptext_weight">1</string>
+	
+	
+	<string name="contactmove_button_weight">2.5</string>
+	<string name="contactmove_toptext_left_weight">7</string>
+	<string name="contactmove_toptext_weight">3</string>
+	<string name="contactmove_toptext_right_weight">1</string>
+	
+	
+	<string name="importhint_nopbap_text_weight">1</string>
+	<string name="importhint_nopbap_toptext_weight">2</string>
+	<string name="importhint_nopbap_toptext_toplayout_weight">1</string>
+	<string name="importhint_nopbap_toptext_leftlayout_weight">7</string>
+	<string name="importhint_nopbap_toptext_layout_weight">1</string>
+	<string name="importhint_nopbap_secondetext_weight">1</string>
+	<string name="importhint_nopbap_secondtext_leftlayout_weight">5</string>
+	<string name="importhint_nopbap_secondtext_layout_weight">1</string>
+	<string name="importhint_nopbap_secondtext_rightlayout_weight">5</string>
+	<string name="importhint_nopbap_button_weight">3</string>
+	
+	
+	<string name="choosecontact_searchdevices_topbutton_layout_weight">6</string>
+	<string name="choosecontact_searchdevices_topbutton_weight">1</string>
+	<string name="choosecontact_searchdevices_list_layout_weight">1</string>
+	<string name="choosecontact_searchdevices_line_weight">100</string>
+	<string name="choosecontact_searchdevices_list_weight">1</string>
+	<string name="choosecontact_searchdevices_downbutton_weight">1</string>
+	
+	
+	<string name="found_newversion">发现新的版本</string>
+	<string name="need_update">需要现在安装吗？</string>
+	<string name="alertdialog_title">温馨提示</string>
+	<string name="alertdialog_update_button">立即更新</string>
+	<string name="progressdialog_title">温馨提示</string>
+	<string name="progressdialog_message">正在下载</string>
+	<string name="alertdialog_cancel_button">取消</string>
+	<string name="instruction">【版本说明】</string>
+	
+	
+	<string name="export_contacts_abort_caused">打包联系人操作中断！！！</string>
+	<string name="export_contacts_failed_caused">打包联系人操作失败！！！</string>
+<!-- 	<string name="remind_to_reconnect_server">服务暂不可用。请重新操作。</string> -->
+	<string name="ask_return_and_stop_exporting">确认返回？这将停止打包联系人操作。</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="operation_timeout_caused_title">超时操作</string>
+	<string name="operation_timeout_caused_message">您已等待较长时间，是否返回重新操作？选择“是”返回，选择“否”继续等待。</string>
+	<string name="exception_caused_csfetch_title">发生异常</string>
+	<string name="exception_caused_csfetch_message">发生异常，请重新操作。</string>
+	<string name="import_file_path">路径:</string>
+	<string name="import_file_name">名称:</string>
+	<string name="input_device_type">请输入设备型号或标识：</string>
+	<string name="software_upgrade">软件升级</string>
+	<string name="pair_failed_caused_title">配对失败</string>
+	<string name="pair_failed_caused_message">配对失败，请重试。</string>
+	<string name="changeSkin">选择皮肤</string><!-- Choose skin -->
+	<string name="changeSkin_name">选择皮肤</string><!-- Choose skin -->
+	<string name="changeSkin_number1">绿色心情</string><!-- green mood -->
+	<string name="changeSkin_number2">璀璨星空</string><!-- starry sky -->
+	<string name="changeSkin_ok">更换成功</string><!-- Replacement success -->
+	
+	
+	<string name="init_pbap_service_failed">初始化失败，请返回重试。</string>
+	
+	    <string name="connect_pbap_service_failed">连接失败，请返回重试。</string>
+	    
+	    <string name="send_file_failed">文件发送失败，请返回重试。</string>
+	    
+	    <string name="recv_file_failed">文件接收失败，请返回重试。</string>
+	
+	
+		<string name="cs_server_timeout_title">超时</string>
+	<string name="cs_server_timeout_message">您的蓝牙设备正处于不可见状态，
+	    如果客户端（发送方）无法搜索到您的蓝牙设备，
+	   请您返回后再次进入该页面。如果客户端（发送方）已经搜索到您的蓝牙设备，您可以继续等待连接。</string>
+	   
+	    <string name="wait">等待</string>
+	    
+	        
+	<string name="udp_send">等待中...</string>
+	
+	<string name="bluetooth_contacts">蓝牙传输联系人</string>
+	<string name="wifi_contacts">WIFI传输联系人</string>
+	<string name="cs_send_contacts">发送联系人</string>
+	<string name="cs_receive_contacts">接收联系人</string>
+<!-- 	WiFi版本 -->
+<!-- 	WifiStart -->
+	<string name="searchingdevice_wifi">正在扫描WiFi设备...</string>
+	<string name="server_start_wifi">等待远端发送...</string>
+	<string name="returnornot_title_wifi">注意</string>
+	<string name="returnornot_message_wifi">确认返回？返回将导致接收端需要重新操作！</string>
+	<string name="ask_return_and_stop_exporting_wifi">确认返回？这将停止打包联系人操作，并导致传输数据不完整！</string>
+	<string name="dialog_title_wifi">提示</string>
+	<string name="network_connect_timeout_wifi">您的设备长时间未能连接至WiFi网络，请确定所连接的WiFi网络可用后再重新操作。</string>
+	<string name="open_title_wifi">请稍侯</string>
+	<string name="open_message_wifi">正在为您打开WiFi模块...</string>
+	<string name="ask_open_message_wifi">您的设备尚未连接WiFi网络，请您手动连接到WiFi网络后再返回当前界面继续操作。</string>
+<!-- 	WifiStart -->
+
+<!-- 	WifiReceive -->
+	<string name="ask_if_receive_file_wifi">您是否确认接受对方用户的链接请求：</string>
+	<string name="recv_file">接收文件</string>
+<!-- 	WifiReceive -->
+
+<!-- WifiSend	 -->
+	<string name="confirm_to_send_data_wifi">点击确定传递数据给对方手机</string>
+	<string name="receiver_refuse_wifi">对方用户已经取消了您的链接请求</string>
+	<string name="timeout_title_wifi">超时</string>
+	<string name="ask_timeout_message_wifi">您已等待较长时间，是否返回重新操作？</string>
+	<string name="waiting_response_wifi">正在等待对方响应...</string>
+<!-- WifiSend	 -->
+
+	<string name="onekeysharecontact_tip1_wifi">1、在接收方手机上安装并开启本软件,务必确保接收方手机与本手机(发送方)处于同一无线网络!</string> 
+    <string name="onekeysharecontact_tip2_wifi">2、在该手机上选择"共享联系人"→"WiFi传输联系人"→"接收联系人"</string>
+	<string name="onekeysharecontact_tip3_wifi">3、点击本页面"下一步"按钮</string>
+	
+	<string name="onekeysharecontact_tip1_wifi_receive">1、务必确保发送方手机与本手机(接收方)处于同一无线网络!</string>
+	<string name="onekeysharecontact_tip2_wifi_receive">2、点击本页面"下一步"按钮</string>
+	<string name="ip_address">本机所在网络IP地址：</string>
+	<string name="wifi_address">当前所在WiFi网络：</string>
+
+	    <string name="send_file_success">文件发送成功。</string>
+	    
+	    <string name="recv_file_success">文件接收成功。</string>
+	    
+	    <string name="moment">请稍等</string>
+	    <string name="getdata">获取数据中...</string>
+	    
+	        <string name="sender">发送方：</string>
+	        <string name="senderip">发送方IP地址：</string>
+	        <string name="sendermac">发送方MAC地址：</string>
+	    
+	        	    <!--按钮-->
+	    <string name="EasyFetchContacts">联系人一键获得</string>
+	    <string name="Quickly">从旧手机快速导入联系人</string>
+	    <string name="sharecontacts">共享联系人</string>
+	    <string name="sendreceivecontactswithotherphone">发送联系人或者接收联系人</string>
+	    <string name="movecontactslocally">联系人本地转移</string>
+	    <string name="backuprestorecontactstofromlocalsdcard">联系人在本地SD卡间的备份与恢复</string>
+	    
+	        
+	     <string name="buttontext_back">返   回</string>
+	     <string name="buttontext_ok">确   定</string>   
+	     <string name="buttontext_next">下一步</string>
+	      <string name="buttontext_selectall">全   选</string> 
+	      <string name="buttontext_deselect">取消全选</string>  
+	       <string name="buttontext_ok_long">确     定</string>  
+	       <string name="buttontext_selected">已选择:</string>
+	           
+	      <string name="movecontactsviabluetooth">蓝牙传输联系人</string>
+	        <string name="movecontactsviawifi">WiFi传输联系人</string>
+	        <string name="importfromsdcard">从SD卡导入联系人</string>
+	        <string name="exporttosdcard">导出联系人到SD卡</string>
+	        
+	            <string name="buttontext_advanced">高级设置</string>
+</resources>

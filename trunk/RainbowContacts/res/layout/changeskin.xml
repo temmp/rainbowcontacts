@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+   		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ltest" android:gravity="center_vertical"
+		android:background="@drawable/uplay_new" android:layout_height="fill_parent"
+		android:layout_weight="@string/up_new" android:orientation="vertical">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:layout_centerVertical="true">
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="horizontal" 
+				android:layout_weight="7.5">
+				<RelativeLayout android:layout_width="2.5dip" android:layout_height="fill_parent" android:id="@+id/uprelative" 
+				android:layout_toLeftOf="@+id/up_text"></RelativeLayout>	
+				<TextView 
+				android:id="@+id/up_text" android:layout_width="wrap_content"
+					android:textSize="@dimen/TOP_Font_Size" android:textColor="@color/title"
+					android:layout_height="wrap_content" android:text="@string/app_name"
+					android:layout_centerInParent="true">
+				</TextView>
+				
+							<ImageView android:src="@drawable/up_icon" android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/uprelative" android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"/>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="@string/importcontacttolocal_new_thirdimagebutton_relative_weight">
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+
+
+	
+	
+	
+	
+	
+		<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest1"
+		android:layout_weight="@string/mid_new" android:orientation="vertical"
+		android:background="@drawable/midlay_new"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_weight="1"
+			android:id="@+id/linearLayout1" android:layout_height="fill_parent">
+			<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="horizontal">
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="9.5"></RelativeLayout>
+			<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" 
+		android:layout_height="fill_parent"
+		android:layout_weight="3">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="9.5">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/changeSkin_name" 	 android:id="@+id/changeskin_name"
+		android:textColor="@color/little" android:textSize="23sp" android:layout_centerInParent="true"
+		/>
+		
+		
+		</RelativeLayout>
+			  <LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" 
+		android:layout_height="fill_parent"
+		android:layout_weight="3">
+			  <RadioGroup android:id="@+id/RadioGroup01" android:orientation="vertical"
+  android:layout_width="wrap_content" android:layout_height="wrap_content"
+  >
+  <RadioButton android:text="@string/changeSkin_number1" android:textColor="@color/little" android:textSize="20sp"
+  android:id="@+id/off" android:checked="true" 
+   android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  <RadioButton android:text="@string/changeSkin_number2" android:textColor="@color/little" android:textSize="20sp"
+  android:id="@+id/on" 
+   android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </RadioGroup>
+  </LinearLayout>
+			</LinearLayout>
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="9.5"></RelativeLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_weight="2"
+			android:id="@+id/linearLayout1" android:layout_height="fill_parent"
+			android:gravity="center_horizontal">		
+			<LinearLayout android:layout_width="fill_parent" android:gravity="center"
+			android:orientation="horizontal"  android:layout_height="wrap_content" >
+			<TextView android:id="@+id/path_text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" 	android:layout_centerHorizontal="true"
+			android:textColor="@color/btn" android:textSize="17dip"/>
+			</LinearLayout>
+			<ImageButton android:id="@+id/button111" 
+				android:background="@color/touming" android:layout_centerInParent="true"
+				android:src="@drawable/ok_3" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+			</ImageButton>
+		</RelativeLayout>
+	
+		</LinearLayout>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest2"
+		 android:orientation="vertical"
+		android:background="@drawable/downlay_new" android:layout_height="fill_parent"
+		android:layout_weight="@string/down_new">
+			<RelativeLayout android:layout_width="fill_parent"	
+		 android:layout_height="fill_parent" android:layout_weight="1.3">
+		<TextView android:id="@+id/down_text" android:layout_centerInParent="true" android:layout_width="wrap_content" android:text="@string/down_text"
+		android:layout_height="wrap_content" android:textSize="11dip" android:textColor="@color/down"/>
+		
+			
+		<TextView android:id="@+id/down_text1" android:layout_centerHorizontal="true" android:layout_below="@+id/down_text" android:layout_width="wrap_content" android:text="@string/down_text1"
+		android:layout_height="wrap_content" android:textSize="11dip" android:textColor="@color/down"/>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.7"></RelativeLayout>
+		</LinearLayout>
+</LinearLayout>

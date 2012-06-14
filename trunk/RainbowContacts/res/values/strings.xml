@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name"> Rainbow Contacts</string>
+	<string name="importcontact">Import contacts</string>
+	<string name="exportcontact">Export contacts</string>
+	<string name="exportcontacttolocal">Export Contacts to local devices</string>
+	<string name="exportcontactviabluetooth">export contact via bluetooth</string>
+	<string name="export">Export</string>
+	<string name="cancel">cancel</string>
+	<string name="quit">exit</string>
+	<string name="about">About</string>
+	<string name="faq">FAQ</string>
+	<string name="stop_import">Operation interrupted and the contacts importing may be incomplete.</string>
+	<string name="import_path">Path:</string>
+    <string name="about_message">Rainbow Contacts 1.1.6\n(Android)_Build1111\n深圳清华大学研究院版权所有
+\nCopyright @ 2011 RITS.
+All RightReserved.\n\nThe current version applied to Android platform. Installation on other platform is at user’s own risk. Downloading, installing and using current software is free, and RITS will not charge any fee.\nEmail:ccdr_hr@tsinghua-sz.org</string>
+	<string name="faq_message">Q:What is Rainbow Contacts? What\'s it for?\n\n
+A:Rainbow Contacts helps you transfer address book between different phones. With this app installed, address book transfer can be accomplished away from any network traffic. Address book backup and recovery are also available.\n\n
+Q:What is Easy Fetch?What\'s it for?\n\n
+A:Rapid cross-platform contacts migration from old phones to Android phone. Just install this application in your new Android phone, and turn on the Bluetooth of your old phone (no need to install this software). Support old phones like iPhone, Nokia, Blackberry, Android, etc.\n\n
+Q:Why don\'t need to install any application on the other mobiles while using "Easy Fetch  Contacts"?
+A:This is because the other mobiles\' system has already support the mothods of "Easy Fetch Contacts",Almost all the mobiles which produced after 2006 support this function.
+Q:What is Contacts Sharing?\n\n
+A:Any phone with this app installed can share selected contacts in address book. Wifi and Bluetooth mode are available for users due to different circumstances.\n\n
+Q:Can WiFi Sharing in iOS version exchange contacts with other phones?\n\n
+A:Yes! Any phone with its counterpart version of Rainbow can share contacts with current device.\n\n
+Q:What is Contacts Local Switch? What\'s it for?\n\n
+A:Backup contacts to local storage and recover form local storage, and transfer contacts using iTunes.\n\n
+Q:Rainbow Contacts support multiple platforms, and what are they?\n\n
+A:Android and iOS version are available now, and Symbian version will coming soon.</string>
+	<string name="exporting">Exporting contacts</string>
+	<string name="import_stoptitle">Instructions</string>
+	<string name="import_stopmessage">Abort? It will stop importing process.</string>
+	<string name="ok">Confirm</string>
+	<string name="Operation">Operations:</string>
+	<string name="back">Back</string>
+	<string name="hascontacts">Total number：</string>
+	<string name="lasttimeop">Last operation：</string>
+	<string name="exitornot">Want to exit?</string>
+	<string name="exported1">Exported \t</string>
+	<string name="exported2">\tcontacts to SD card\nsuccessfully</string>
+	<string name="searchdevice">Click here to scan the devices again</string>
+	<string name="searchingdevice">Scanning Bluetooth ..</string>
+	<string name="num18_attention">Operations:</string>
+	<string name="num18_attention1">Turn on the bluetooth in other phone and accept contacts exporting request</string>
+	<string name="num18_attention2">If the other phone has installed this application, address book import can be done.</string>
+	<string name="num11_attention">Sending fails</string>
+	<string name="num11_attention1">请将对方手机于www.***.com下载“彩虹联系人”客户端，完成导出</string>
+	<string name="num19_attention">对方手机系统不支持一键导入，请于www.***.com下载“彩虹联系人”客户端，完成导入
+	</string>
+	<string name="name_unknow">(Unknown)</string>
+	<string name="onekeysharecontact_tip1">1. Please make sure the other phone has installed this application, and run it;</string>
+<!--
+	<string name="onekeysharecontact_tip2">\t\t开启后对方手机只需进入主界面,等待弹出提示窗口，并选择接受导出请求，完成操作。</string>
+  -->
+  
+   <string name="onekeysharecontact_tip2">2. Follow the steps on the other phone: “Share Contacts ” → “Move contacts via bluetooth”→ “Receive”;</string>
+	<string name="onekeysharecontact_tip3">3. Click “Next” button.</string>
+	<string name="num16_imported">Import</string>
+	<string name="num16_imported2"> contacts</string>
+	<string name="num16_imported3">from SDCard</string>
+	<string name="searchend">Scanning\nfinished</string>
+	<string name="enter">Confirm</string>
+	<string name="choosedevice">Please choose one device</string>
+	<string name="searchtips">Please click "scanning devices"</string>
+	<string name="bondnone">Pair with this device</string>
+	<string name="bonded">Paired but not \nconnected</string>
+	<string name="pleasewait">Exporting contacts...</string>
+	<string name="bendidaorulianxiren">Import Contacts from SDCard</string>
+	<string name="lianxirenyijianhuode">一键获得旧手机和好友手机联系人信息，部分手机若无本客户端将无法完成此操作</string>
+	<string name="quedingtishi">从默认位置导入联系人，如需选择vcard文件，请点击“高级设置”</string>
+	<string name="op1">要做的操作</string>
+	<string name="op3">关闭对话框</string>
+	<string name="op4">重新高级设置</string>
+	<string name="op5">返回到软件首页</string>
+	<string name="imported1">\tImported\t</string>
+	<string name="imported2">\tcontacts\n\tsuccessfully</string>
+	<string name="pleasewait2">Importing\t</string>
+	<string name="pleasewait3">\'s contact</string>
+	<string name="novcf1">Searching finished</string>
+	<string name="novcf2">No vCard is found. Please choose advanced settings.</string>
+	<string name="receiving">Receiving data</string>
+	<string name="pbapreceiving">Receiving contacts</string>
+	<string name="connecting">Connecting other phone...
+\n\nPlease accept the following requests to complete contacts transfer.</string>
+	<string name="receive_completed">Raw data received, and ready to merge.</string>
+	<string name="server_start">Waiting for the data from sender,\n Please complete the operations within 120 seconds</string>
+	<string name="get_bulename">Local name：</string>
+	<string name="BtServer">远端手机主动发送</string>
+	<string name="sending">Sending...</string>
+	<string name="send_completed">Sending finished</string>
+	<string name="exported_searchdevices">\t contacts\n\tExported Success</string>
+	<string name="exported_searchdevices2">Contacts are sent to</string>
+	<string name="building_server">Service starts. Please make sure the bluetooth is discoverable</string>
+	<string name="SDFtitle">Connection failed</string>
+	<string name="SDFContent">Exporting failed. Please install this application in the other phone and try again</string>
+	<string name="SDFContent_pbap">Connection failed. Please try again.</string>
+	<string name="CRtitle">Connection rejected.</string>
+	<string name="CRContent">Connection rejected. Please restart bluetooth and try again.</string>
+	<string name="TOtitle">Connection timeout</string>
+	<string name="TOContent">Connection timeout. Please accept the connection request in the other phone</string>
+	<string name="init">Initializing...</string>
+	<string name="Bluetoothimport">通过蓝牙从另一个手机导入联系人</string>
+	<string name="stopimporttitle">Stop importing</string>
+	<string name="stopimporttext">Are you sure to stop importing</string>
+	<string name="discoverablecaution">Please make bluetooth be discoverable</string>
+	<string name="openbtcaution">Please turn on bluetooth</string>
+	<string name="chooseyourfile">Select a vCard file to import</string>
+	<string name="painted_eggshell">What!!!</string>
+	<string name="painted_eggshell_message">Really?You know\t</string>
+	<string name="painted_eggshell_message1">.You\'re lucky!!!</string>
+	<string name="painted_eggshell_ok">OK</string>
+	
+	
+	
+	<string name="contactonekeyget_hint1">\t\t Please turn on the bluetooth in the other phone and accept contacts exporting request</string>
+	<string name="contactonekeyget_hint2">\t\t Some phones do not support this function. Please install this application in the other phone
+	</string>
+	
+	<string name="searchedtips">\tChoose one device and click \n\t\"OK\" </string>
+	<string name="importcontacttolocal_new_hint1">\tWant to import contacts from other\n\tvCard file?Click the “Advanced” </string>
+	<string name="importcontacttolocal_new_hint2">"Advanced"</string>
+	<string name="importcontacttolocal_new_hint3">Import Contacts from default path:</string>
+	<string name="importcontacttolocal_new_hint4"></string>
+	
+	
+	<string name="explain_text">\t本软件可实现将旧手机里的联系人全部导入到本机，对方手机无需安装任何软件，只需在旧手机上完成几项基本操作，即可实现联系人快速转移。</string>
+	<string name="main_text">1.Turn on the bluetooth in the other phone and set it to be discoverable \n\n(the other phone does not need to install this application. Some phones need SIM card to activate the Bluetooth)</string>
+	<string name="main_text1">2.Click “OK” button</string>
+	<string name="main_text2">*Attentions: Some phones do not support this function. In such case, please install this application in other phone, and choose “Share contacts”</string>
+	<string name="down_text">Copyright © 2011 RITS. All rights reserved</string>
+	<string name="down_text1">深圳清华大学研究院.版权所有</string>
+	<string name="up_new">735</string>
+	<string name="mid_new">174</string>
+	<string name="down_new">691</string>
+	<string name="up">705</string>
+	<string name="mid">180</string>
+	<string name="down">715</string>
+	<string name="main_mid_weight">1</string>
+	<string name="onekeysharecontact_tips_tip1_weight">1</string>
+	<string name="onekeysharecontact_tips_tip2_weight">1</string>
+	<string name="onekeysharecontact_tips_button_weight">2</string>
+	
+	<string name="contactonekeyget_tip1_weight">1</string>
+	<string name="contactonekeyget_tip2_weight">1</string>
+	<string name="contactonekeyget_button_weight">2</string>
+	
+	
+	<string name="importcontacttolocal_new_mid_weight">3.5</string>
+	<string name="importcontacttolocal_new_firsttextview_linear_weight">5</string>
+	<string name="importcontacttolocal_new_blank_weight">2</string>
+	<string name="importcontacttolocal_new_firsttextview_relative_weight">1</string>
+	<string name="importcontacttolocal_new_firstimagebutton_relative_weight">8</string>
+	<string name="importcontacttolocal_new_secondtextview_linear_weight">3</string>
+	<string name="importcontacttolocal_new_secondtextview_relative_weight">3</string>
+	<string name="importcontacttolocal_new_secondimagebutton_firstrelative_weight">3</string>
+	<string name="importcontacttolocal_new_secondimagebutton_secondrelative_weight">8</string>
+	<string name="importcontacttolocal_new_thirdimagebutton_relative_weight">15</string>
+	
+	
+	
+	
+	<string name="newmain_toptext_left_weight">9.5</string>
+	<string name="newmain_toptext_weight">1</string>
+	
+	
+	<string name="contactmove_button_weight">2.5</string>
+	<string name="contactmove_toptext_left_weight">9.5</string>
+	<string name="contactmove_toptext_weight">3</string>
+	<string name="contactmove_toptext_right_weight">1</string>
+	
+	
+	<string name="importhint_nopbap_text_weight">1</string>
+	<string name="importhint_nopbap_toptext_weight">2</string>
+	<string name="importhint_nopbap_toptext_toplayout_weight">1</string>
+	<string name="importhint_nopbap_toptext_leftlayout_weight">7</string>
+	<string name="importhint_nopbap_toptext_layout_weight">1</string>
+	<string name="importhint_nopbap_secondetext_weight">1</string>
+	<string name="importhint_nopbap_secondtext_leftlayout_weight">5</string>
+	<string name="importhint_nopbap_secondtext_layout_weight">1</string>
+	<string name="importhint_nopbap_secondtext_rightlayout_weight">5</string>
+	<string name="importhint_nopbap_button_weight">3</string>
+	
+	
+	<string name="choosecontact_searchdevices_topbutton_layout_weight">6</string>
+	<string name="choosecontact_searchdevices_topbutton_weight">1</string>
+	<string name="choosecontact_searchdevices_list_layout_weight">1</string>
+	<string name="choosecontact_searchdevices_line_weight">100</string>
+	<string name="choosecontact_searchdevices_list_weight">1</string>
+	<string name="choosecontact_searchdevices_downbutton_weight">1</string>
+	
+	
+	<string name="found_newversion">发现新的版本</string>
+	<string name="need_update">需要现在安装吗？</string>
+	<string name="alertdialog_title">Alert</string>
+	<string name="alertdialog_update_button">立即更新</string>
+	<string name="progressdialog_title">Please note</string>
+	<string name="progressdialog_message">正在下载</string>
+	<string name="alertdialog_cancel_button">取消</string>
+	<string name="instruction">【版本说明】</string>
+	
+	
+	<string name="export_contacts_abort_caused">Packing contacts interrupted!!!</string>
+	<string name="export_contacts_failed_caused">Packing contacts failed!!!</string>
+<!-- 	<string name="remind_to_reconnect_server">服务暂不可用。请重新操作。</string> -->
+	<string name="ask_return_and_stop_exporting">Are you sure to abort?
+It will stop packing.</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="operation_timeout_caused_title">Timeout</string>
+	<string name="operation_timeout_caused_message">Timeout. Press YES to go back, or press NO to continue waiting.</string>
+	<string name="exception_caused_csfetch_title">Exception happened.</string>
+	<string name="exception_caused_csfetch_message">Exception happened. Please try again later.</string>
+	<string name="import_file_path">Path:</string>
+	<string name="import_file_name">vCard name:</string>
+	<string name="input_device_type">Please enter device type or identification:</string>
+	<string name="software_upgrade">Software update</string>
+	<string name="pair_failed_caused_title">Pairing failed</string>
+	<string name="pair_failed_caused_message">Pairing failed. Please try again later.</string>
+	<string name="changeSkin">Choose skin</string><!-- Choose skin -->
+	<string name="changeSkin_name">Choose skin</string><!-- Choose skin -->
+	<string name="changeSkin_number1">green mood</string><!-- green mood -->
+	<string name="changeSkin_number2">starry sky</string><!-- starry sky -->
+	<string name="changeSkin_ok">Replacement success</string><!-- Replacement success -->
+	
+	
+	
+	<string name="wifitext">Sending</string>
+	
+	    
+	    <string name="init_pbap_service_failed">Failed to initialize.Please retry.</string>
+	    
+	        <string name="connect_pbap_service_failed">Failed to connect.Please retry.</string>
+	        
+	        <string name="send_file_failed">Failed to send file.Please retry.</string>
+	        
+	            <string name="recv_file_failed">Failed to receive file.Please retry.</string>
+	
+
+
+	    	<string name="cs_server_timeout_title">Timeout</string>
+	<string name="cs_server_timeout_message">Your bluetooth device is not discoverable now,
+	    if the client(sender) could not search your device,
+	    you would better return and get back to this page again.
+	    You can keep waiting if the client(sender) has already searched your bluetooth device.</string>
+	    
+	    <string name="wait">Wait</string>
+	    
+	        
+
+    <string name="udp_send">Waiting...</string>
+  
+  
+  	<string name="bluetooth_contacts">Move contacts via bluetooth</string>
+	<string name="wifi_contacts">Move contacts via \nWiFi</string>
+	<string name="cs_send_contacts">Send</string>
+	<string name="cs_receive_contacts">Receive</string>  
+    
+    
+    <!-- 	WiFi版本 -->
+	<string name="searchingdevice_wifi">Scanning WiFi ...</string>
+	<string name="server_start_wifi">Waiting for the data from sender...</string>
+	<string name="returnornot_title_wifi">Warning</string>
+	<string name="returnornot_message_wifi">Want to return?It will cause the receiver to re-operation.</string>
+	<string name="ask_return_and_stop_exporting_wifi">Are you sure to abort?It will stop packing and cause incomplete transmission data!</string>
+	<string name="dialog_title_wifi">Notice</string>
+	<string name="network_connect_timeout_wifi">You have connecting to the WiFi network for a long time without success,
+	please make sure the WiFi network is available and then try again.</string>
+	<string name="open_title_wifi">Please wait</string>
+	<string name="open_message_wifi">Opening WiFi module for you...</string>
+	<string name="ask_open_message_wifi">Your device is not connected WiFi network,please connect to a WiFi network manually and then return to the current screen to continue.</string>
+	
+	<string name="ask_if_receive_file_wifi">Please confirm sender\'s request:</string>
+	<string name="recv_file">Receive file</string>
+	
+	<string name="confirm_to_send_data_wifi">Click OK to transfer data to receiver</string>
+	<string name="receiver_refuse_wifi">The receiver has refused your request</string>
+	<string name="timeout_title_wifi">Timeout</string>
+	<string name="ask_timeout_message_wifi">You have waited for a long time,return and for a retry?</string>
+	<string name="waiting_response_wifi">Waiting for response...</string>
+	
+	<string name="onekeysharecontact_tip1_wifi">1. Please make sure the other phone is running the same application,both phones should be in the same wireless network!</string> 
+    <string name="onekeysharecontact_tip2_wifi">2. Follow the steps on the other phone: “Share Contacts ” → “Move Contacts via WiFi”→ “Receive”</string>
+	<string name="onekeysharecontact_tip3_wifi">3. Click “Next” button.</string>
+	
+	<string name="onekeysharecontact_tip1_wifi_receive">1. Please make sure both phones are in the same wireless network!</string>
+	<string name="onekeysharecontact_tip2_wifi_receive">2. Click “Next” button.</string>
+	<string name="ip_address">IP address:</string>
+	<string name="wifi_address">WiFi network:</string>
+	
+	    <string name="send_file_success">Send file success.</string>
+	    
+	        <string name="recv_file_success">Receive file success.</string>
+
+	    
+	    <string name="moment">Please wait a moment</string>
+	    <string name="getdata">Getting Data...</string>
+	    
+	        <string name="sender">Sender Name:</string>
+	        <string name="senderip">Sender IP:</string>
+	        <string name="sendermac">Sender MAC:</string>
+	    
+	        <!--按钮-->
+	    <string name="EasyFetchContacts">Easy Fetch Contacts</string>
+	    <string name="Quickly">Quickly import contacts from your old phone</string>
+	    <string name="sharecontacts">Share Contacts</string>
+	    <string name="sendreceivecontactswithotherphone">Send/Receive contacts with other phone</string>
+	    <string name="movecontactslocally">Move Contacts Locally</string>
+	    <string name="backuprestorecontactstofromlocalsdcard">Backup/Restore contacts to/from local sdcard</string>
+	    
+	        
+	     <string name="buttontext_back">Back</string>
+	     <string name="buttontext_ok">O K</string>
+	        <string name="buttontext_next">Next</string>
+	        	      <string name="buttontext_selectall">Select All</string> 
+	      <string name="buttontext_deselect">Deselect</string> 
+	        <string name="buttontext_ok_long">O K</string>    
+	           <string name="buttontext_selected">selected:</string>  
+	            
+	     <string name="movecontactsviabluetooth">Move contacts via bluetooth</string>
+	     <string name="movecontactsviawifi">Move contacts via Wifi</string>
+	       <string name="importfromsdcard">Import from sdcard</string>
+	        <string name="exporttosdcard">Export to sdcard</string>
+	        
+	             <string name="buttontext_advanced">Advanced</string>
+	    
+</resources>
