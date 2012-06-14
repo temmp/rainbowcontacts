@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="TOP_Font_Size">16sp</dimen>
+	<dimen name="SUMMARY_Font_Size">14sp</dimen>
+	<dimen name="TIPS_Font_Size">17sp</dimen>
+	<dimen name="TIPS_Font_Size_BIG">22sp</dimen>
+	<dimen name="BEGIN_SEARCH_Font_Size">17.128318584sp</dimen>
+	<dimen name="SEARCHING_Font_Size">20sp</dimen>
+	<dimen name="SEARCHED_Font_Size">10.871681416sp</dimen>
+	<dimen name="CONTACTNAME_Font_Size">20.256637168sp</dimen>
+	<dimen name="EXPORTING_Font_Size">21.681415929sp</dimen>
+	
+	
+	
+	<dimen name="toptext_left">40dip</dimen>
+	<dimen name="toptext_top">10dip</dimen>
+	<dimen name="havecontactnumtext_top">30dip</dimen>
+	<dimen name="onekeysharecontact_tip1_top">40dip</dimen>
+	<dimen name="onekeysharecontact_tip1_left">40dip</dimen>
+	<dimen name="onekeysharecontact_tip2_left">40dip</dimen>
+	<dimen name="onekeysharecontact_tip2_top">10dip</dimen>
+	<dimen name="onekeysharecontact_tip2_right">30dip</dimen>
+	<dimen name="onekeysharecontact_button2_left">10dip</dimen>
+	
+	
+	<dimen name="contactonekeyget_tip1_top">40dip</dimen>
+	<dimen name="contactonekeyget_tip1_left">40dip</dimen>
+	<dimen name="contactonekeyget_tip2_left">40dip</dimen>
+	<dimen name="contactonekeyget_tip2_top">10dip</dimen>
+	<dimen name="contactonekeyget_tip2_right">30dip</dimen>
+	<dimen name="contactonekeyget_button2_left">10dip</dimen>
+	
+	
+	<dimen name="radarside">40dip</dimen>
+	<dimen name="btscrollheight">270dip</dimen>
+	<dimen name="contactscrollheight">350dip</dimen>
+	
+	<dimen name="list_first_char_hint_text_size">18sp</dimen>
+	<dimen name="list_item_order_number_size">30sp</dimen>
+	<dimen name="list_item_first_view_right_margin">30sp</dimen>
+	<dimen name="list_item_first_char_padding">17dip</dimen>
+	<dimen name="list_item_name_size">25sp</dimen>
+	<dimen name="list_item_url_size">10sp</dimen>
+	<dimen name="list_item_divider_margin">5dip</dimen>
+	<dimen name="list_item_icon_length">50sp</dimen>
+	<dimen name="popup_char_min_length">70dip</dimen>
+	<dimen name="qa_action_item_padding">15dip</dimen>
+	<dimen name="qa_action_item_name_size">15sp</dimen>
+	<dimen name="info_dialog_expend">10dip</dimen>
+</resources>

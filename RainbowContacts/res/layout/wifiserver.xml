@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/background_green" 
+    android:id="@+id/parentid"
+	android:layout_height="fill_parent">
+
+
+		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ltest" android:gravity="center_vertical"
+	 android:layout_height="fill_parent"
+		android:layout_weight="@string/up_new" android:orientation="vertical">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:layout_centerVertical="true">
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="horizontal" 
+				android:layout_weight="7.5">
+				<RelativeLayout android:layout_width="2.5dip" android:layout_height="fill_parent" android:id="@+id/uprelative" 
+				android:layout_toLeftOf="@+id/up_text"></RelativeLayout>	
+				<TextView 
+				android:id="@+id/up_text" android:layout_width="wrap_content"
+					android:textSize="@dimen/TOP_Font_Size" android:textColor="@color/title"
+					android:layout_height="wrap_content" android:text="@string/app_name"
+					android:layout_centerInParent="true">
+				</TextView>
+				
+							<ImageView android:src="@drawable/up_icon" android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/uprelative" android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"/>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="@string/importcontacttolocal_new_thirdimagebutton_relative_weight">
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+
+
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest1"
+		android:layout_weight="@string/mid_new" android:orientation="vertical"
+		android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_weight="1"
+			android:id="@+id/progresscontainer" android:layout_height="130dip">
+
+			<ProgressBar android:id="@+id/cyclebar" style="?android:attr/progressBarStyle"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:visibility="gone" />
+
+			<ProgressBar android:id="@+id/importbar"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:paddingLeft="40dp" android:paddingRight="40dp"
+				android:visibility="gone" />
+		</RelativeLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/btservertext"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="20dip" android:textColor="@color/gray"
+				android:gravity="center_horizontal">
+			</TextView>
+		</LinearLayout>
+
+
+
+
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_gravity="center_horizontal"  android:gravity="center"
+			android:layout_weight="2" android:id="@+id/linearLayout1" 
+			android:orientation="horizontal" android:layout_height="wrap_content">
+
+
+			
+			    <LinearLayout android:id="@+id/returnbtn"
+				android:background="@drawable/onlybutton" 
+				android:onClick="onmain" android:gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		<TextView android:id="@+id/text_back"   
+				    android:layout_width="wrap_content" android:layout_height="wrap_content"
+				    android:text="@string/buttontext_back"
+				    android:textColor="@color/maintext_black1"
+				    android:textSize="20sp"/>
+			</LinearLayout>
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest2"
+		 android:orientation="vertical"
+	 android:layout_height="fill_parent"
+		android:layout_weight="@string/down_new">
+			<RelativeLayout android:layout_width="fill_parent"	
+		 android:layout_height="fill_parent" android:layout_weight="1.3">
+		<TextView android:id="@+id/down_text" android:layout_centerInParent="true" android:layout_width="wrap_content" android:text="@string/down_text"
+		android:layout_height="wrap_content" android:textSize="11dip" android:textColor="@color/down"/>
+		
+			
+		<TextView android:id="@+id/down_text1" android:layout_centerHorizontal="true" android:layout_below="@+id/down_text" android:layout_width="wrap_content" android:text="@string/down_text1"
+		android:layout_height="wrap_content" android:textSize="11dip" android:textColor="@color/down"/>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.7"></RelativeLayout>
+		</LinearLayout>
+
+</LinearLayout>
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- 	android:orientation="vertical" android:layout_width="fill_parent" -->
+<!-- 	android:background="@drawable/information_background" -->
+<!-- 	android:layout_height="fill_parent"> -->
+
+
+
+<!-- 	<LinearLayout android:layout_width="fill_parent" -->
+<!-- 		android:orientation="vertical" android:background="#BBFFFFFF" -->
+<!-- 		android:layout_height="fill_parent" android:layout_weight="@string/mid"> -->
+
+
+
+<!-- 		<LinearLayout android:layout_width="fill_parent" -->
+<!-- 			android:layout_weight="14" android:id="@+id/information_layout1" -->
+<!-- 			android:background="@drawable/scnuetalk_background6" -->
+<!-- 			android:orientation="horizontal" android:layout_height="fill_parent"> -->
+
+<!-- 			<ImageView android:layout_width="40dip" android:id="@+id/readetalk_img1" -->
+<!-- 				android:layout_height="40dip" android:src="@drawable/icon_new" -->
+<!-- 				android:layout_marginLeft="10dip" android:layout_marginRight="10dip" /> -->
+
+<!-- 			<TextView android:layout_width="wrap_content" android:id="@+id/readetalk_text" -->
+<!-- 				android:layout_height="fill_parent" android:text="正在接收文件" -->
+<!-- 				android:textColor="@color/white" android:textSize="15sp" -->
+<!-- 				android:layout_marginLeft="60dip" android:layout_marginBottom="5dip" -->
+<!-- 				android:layout_marginTop="10dip" /> -->
+
+<!-- 		</LinearLayout> -->
+
+
+
+
+<!-- 		<LinearLayout android:layout_width="fill_parent" -->
+<!-- 			android:layout_height="fill_parent" android:layout_weight="1" -->
+<!-- 			android:orientation="vertical"> -->
+
+<!-- 			<RelativeLayout android:layout_width="fill_parent" -->
+<!-- 				android:orientation="vertical" android:layout_weight="1" -->
+<!-- 				android:id="@+id/progresscontainer" android:layout_height="130dip"> -->
+
+<!-- 				<ProgressBar android:id="@+id/cyclebar" style="?android:attr/progressBarStyle" -->
+<!-- 					android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 					android:visibility="gone" /> -->
+
+<!-- 				<ProgressBar android:id="@+id/importbar" -->
+<!-- 					style="?android:attr/progressBarStyleHorizontal" -->
+<!-- 					android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 					android:paddingLeft="40dp" android:paddingRight="40dp" -->
+<!-- 					android:visibility="gone" /> -->
+<!-- 			</RelativeLayout> -->
+<!-- 			<LinearLayout android:layout_width="fill_parent" -->
+<!-- 				android:layout_height="wrap_content"> -->
+<!-- 				<TextView android:id="@+id/btservertext" -->
+<!-- 					android:layout_width="fill_parent" android:layout_height="wrap_content" -->
+<!-- 					android:textSize="20dip" android:textColor="@color/gray" -->
+<!-- 					android:gravity="center_horizontal"> -->
+<!-- 				</TextView> -->
+<!-- 			</LinearLayout> -->
+
+
+<!-- 			<LinearLayout android:layout_width="fill_parent" -->
+<!-- 				android:layout_gravity="center_horizontal" android:gravity="center" -->
+<!-- 				android:layout_weight="2" android:id="@+id/linearLayout1" -->
+<!-- 				android:orientation="horizontal" android:layout_height="wrap_content"> -->
+
+<!-- 				<ImageButton android:layout_height="wrap_content" -->
+<!-- 					android:src="@drawable/back_3" android:background="@color/touming" -->
+<!-- 					android:onClick="onmain" android:id="@+id/num11_OkButton" -->
+<!-- 					android:layout_width="wrap_content"></ImageButton> -->
+<!-- 			</LinearLayout> -->
+
+<!-- 		</LinearLayout> -->
+
+
+
+
+<!-- 	</LinearLayout> -->
+
+
+
+<!-- </LinearLayout> -->

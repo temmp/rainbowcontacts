@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/background_green" 
+    android:id="@+id/parentid"
+	android:layout_height="fill_parent">
+	<!-- 橙色顶栏中的文字 -->
+		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ltest" android:gravity="center_vertical"
+	android:layout_height="fill_parent"
+		android:layout_weight="@string/up_new" android:orientation="vertical">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:layout_centerVertical="true">
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="horizontal" 
+				android:layout_weight="7.5">
+				<RelativeLayout android:layout_width="2.5dip" android:layout_height="fill_parent" android:id="@+id/uprelative" 
+				android:layout_toLeftOf="@+id/up_text"></RelativeLayout>	
+				<TextView 
+				android:id="@+id/up_text" android:layout_width="wrap_content"
+					android:textSize="@dimen/TOP_Font_Size" android:textColor="@color/title"
+					android:layout_height="wrap_content" android:text="@string/app_name"
+					android:layout_centerInParent="true">
+				</TextView>
+				
+							<ImageView android:src="@drawable/up_icon" android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/uprelative" android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"/>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="@string/importcontacttolocal_new_thirdimagebutton_relative_weight">
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<!-- 中间部分-->
+		<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest1"
+		android:layout_weight="@string/mid_new" android:orientation="vertical"
+		android:layout_height="fill_parent">
+         <!-- “正在扫描设备”-->
+		<LinearLayout 
+				
+				 android:background="@drawable/clicklayout"
+
+				 android:layout_weight="561"
+				android:orientation="vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:gravity="center_horizontal">
+				<LinearLayout 
+				 android:layout_weight="8"
+				android:orientation="vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:gravity="center_horizontal"></LinearLayout>
+				<LinearLayout 			 android:id="@+id/searchlinearLayout"	 	
+				android:focusableInTouchMode="true" 
+      			  android:clickable="true"
+				 android:layout_weight="2"
+				android:orientation="vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:gravity="center_horizontal">
+				<TextView android:id="@+id/uplaytext_wifi" android:layout_width="wrap_content"
+					android:textColor="@color/little" android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+					android:textSize="@dimen/BEGIN_SEARCH_Font_Size" 
+					android:text="@string/searchdevice">
+				</TextView>
+				</LinearLayout>
+		</LinearLayout>
+		
+		
+		<!-- 雷达 -->
+		<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="4dip" android:gravity = "center_horizontal"
+				android:orientation="horizontal" android:id="@+id/radarback_wifi"
+				android:layout_height="fill_parent" android:layout_weight="499"
+				 android:background="@drawable/radarbackground">
+				<RelativeLayout android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"  android:layout_weight="23"  > </RelativeLayout>
+			<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent"  android:layout_weight="19" android:gravity="center">
+			<RelativeLayout android:layout_width="fill_parent" android:id="@+id/relative1_wifi"
+			android:layout_height="wrap_content"  android:layout_weight="18" android:gravity="center" android:layout_centerInParent="true" >
+			
+				<ImageView android:id="@+id/radarView_wifi"
+				android:layout_width="@dimen/radarside"
+				android:layout_height="@dimen/radarside"
+				
+				/>
+				</RelativeLayout>
+				</LinearLayout>
+				<!--android:background="@drawable/radar1" -->
+				<RelativeLayout android:layout_width="fill_parent" android:id="@+id/relative2_wifi"
+			android:layout_height="fill_parent"  android:layout_weight="8.5" android:gravity="center_vertical">
+				<TextView
+				android:id="@+id/searchingdevicetext_wifi"  
+					android:layout_width="wrap_content"
+					android:textColor="@color/little" android:layout_height="wrap_content"
+					android:textSize="19sp" 
+					android:layout_centerVertical="true"
+					android:text="@string/searchingdevice_wifi">
+				</TextView>
+				</RelativeLayout>
+		</LinearLayout>
+		
+		<ScrollView android:id="@+id/widget34_wifi" android:layout_weight="192"
+			android:layout_width="fill_parent" android:orientation="vertical"
+			android:layout_height="fill_parent">"
+			<LinearLayout android:id="@+id/DevicesList_wifi"		
+				android:layout_width="fill_parent" android:orientation="vertical"
+				android:layout_height="wrap_content">
+				</LinearLayout>
+		</ScrollView>
+		
+		
+	</LinearLayout>
+	
+	
+
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    			<LinearLayout android:layout_width="fill_parent" android:id="@+id/ltest2"
+		 android:orientation="horizontal"
+		 android:layout_height="fill_parent"
+		android:layout_weight="@string/down_new">
+			<RelativeLayout android:layout_width="fill_parent"	
+		 android:layout_height="fill_parent" android:layout_weight="1">
+		<LinearLayout android:id="@+id/search_button"
+		android:orientation="horizontal" android:gravity="center"
+				android:layout_centerInParent="true"
+				android:onClick="oncancelbtn" android:background="@drawable/specialbutton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+				<TextView android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/buttontext_back"
+				    android:textColor="@color/maintext_black1"
+				    android:textSize="20sp"/>
+			</LinearLayout>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+		<LinearLayout android:id="@+id/search_button1"
+				android:layout_centerInParent="true" 
+						android:orientation="horizontal" android:gravity="center"
+				android:background="@drawable/specialbutton" android:layout_width="wrap_content"
+				android:onClick="onconfirmbtn" android:layout_height="wrap_content"
+				>
+				<TextView android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/buttontext_ok"
+				    android:textColor="@color/maintext_black1"
+				    android:textSize="20sp"/>
+			</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+
+</LinearLayout>
