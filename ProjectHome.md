@@ -1,0 +1,1 @@
+Use bluetooth to transfer contacts.
